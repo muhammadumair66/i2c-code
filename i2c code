@@ -1,0 +1,15 @@
+GOOGLE COLAB CODE: https://colab.research.google.com/drive/1fKRPu5VbUrbJOQYWCQR6I1AUJmCGysQi?usp=sharing
+
+MANDATORY VIDEO: https://drive.google.com/file/d/1txSe3fySywXBVpfzlVXDct_IWBfdKqDk/view?usp=sharing
+
+Google Colab code has some additional commands that are pretty mandatory for the python script to run. If you run it on Colab, it will download the files automatically. If you run the main.py file given to you, make sure you copy paste the "!" commands of Colab and run them on your Linux machine in root mode (sudo).
+How to set up a virtual i2c device? http://www.amongbytes.com/post/20190208-i2c-stub/
+
+This is complete instructions
+
+apt-get install i2c-tools
+pip install smbus
+
+^ Run these shell commands before running the python script.
+
+main.py
